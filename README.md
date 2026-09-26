@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/github-preview.png)
+![](./solution-github-preview.png)
 
 ### Links
 
