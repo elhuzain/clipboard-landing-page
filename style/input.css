@@ -12,7 +12,6 @@
     font-style: normal;
 }
 
-
 @theme {
     --color-blue-500: #6174FF;
     --color-blue-400: #8897FF;
@@ -137,4 +136,8 @@ button.secondary {
 
 .img-mobile {
     @apply sm:hidden;
+}
+
+a {
+   @apply text-preset-7 text-gray-700 hover:text-green-500; 
 }

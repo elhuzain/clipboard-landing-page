@@ -137,7 +137,8 @@
       </ul>
     </section>
 
-    <section class="mx-auto w-fit flex flex-col sm:flex-row sm:flex-wrap sm:justify-center items-center gap-[56px] sm:gap-[80px] sm:px-7">
+    <section
+      class="mx-auto w-fit flex flex-col sm:flex-row sm:flex-wrap sm:justify-center items-center gap-[56px] sm:gap-[80px] sm:px-7">
       <img alt="google" src="/images/logo-google.png" />
       <img alt="ibm" src="/images/logo-ibm.png" />
       <img alt="microsoft" src="/images/logo-microsoft.png" />
@@ -161,15 +162,52 @@
     </section>
   </main>
 
-  FAQs
-  Contact Us
-  Privacy Policy
-  Press Kit
-  Install Guide
+  <footer class="mt-30 bg-gray-50">
+    <div class="py-16 flex flex-col lg:flex-row max-w-277.5 lg:gap-30 mx-auto w-full">
+      <img src="/images/logo.svg" class="max-w-15 object-contain mx-auto mb-8 lg:mb-0"/>
 
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+      <nav class="flex w-full flex-col lg:flex-row justify-between">
+        <ul class="flex flex-col lg:flex-row gap-6 lg:gap-14 text-center lg:text-start">
+          <li>
+            <ul class="flex flex-col space-y-6 lg:space-y-2">
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </li>
+          <li>
+            <ul class="flex flex-col space-y-6 lg:space-y-2">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Press Kit</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Install Guide</a></li>
+        </ul>
+
+        <ul class="flex items-center gap-8 mx-auto lg:mx-0 w-fit mt-8 lg:mt-0">
+          <li>
+            <a href="#">
+              <img src="/images/icon-facebook.svg"/>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="/images/icon-twitter.svg"/>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="/images/icon-instagram.svg"/>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="text-xs bg-gray-700 text-white py-1 text-center">
+      Challenge by <a class="text-green-500!" href="https://www.frontendmentor.io?ref=challenge">Frontend
+        Mentor</a>.
+      Coded by <a class="text-green-500!" href="#">elhuzain</a>.
+    </div>
   </footer>
 </body>
 
