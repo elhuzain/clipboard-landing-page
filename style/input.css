@@ -39,9 +39,12 @@
     --spacing-1200: 96px;
 }
 
-@utility text-preset-1 {
+body {
     font-family: 'Bai Jamjuree';
     font-style: normal;
+}
+
+@utility text-preset-1 {
     font-weight: 600;
     font-size: 46px;
     line-height: 125%;
@@ -49,8 +52,6 @@
 }
 
 @utility text-preset-2 {
-    font-family: 'Bai Jamjuree';
-    font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 125%;
@@ -58,8 +59,6 @@
 }
 
 @utility text-preset-3 {
-    font-family: 'Bai Jamjuree';
-    font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 125%;
@@ -67,8 +66,6 @@
 }
 
 @utility text-preset-4 {
-    font-family: 'Bai Jamjuree';
-    font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 125%;
@@ -76,8 +73,6 @@
 }
 
 @utility text-preset-5 {
-    font-family: 'Bai Jamjuree';
-    font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 125%;
@@ -85,8 +80,6 @@
 }
 
 @utility text-preset-6 {
-    font-family: 'Bai Jamjuree';
-    font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 125%;
@@ -94,8 +87,6 @@
 }
 
 @utility text-preset-7 {
-    font-family: 'Bai Jamjuree';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
@@ -103,8 +94,6 @@
 }
 
 @utility text-preset-7-semibold {
-    font-family: 'Bai Jamjuree';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 150%;
@@ -112,8 +101,6 @@
 }
 
 @utility text-preset-8 {
-    font-family: 'Bai Jamjuree';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
