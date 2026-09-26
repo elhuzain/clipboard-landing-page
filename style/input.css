@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+.bai-jamjuree-regular {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bai-jamjuree-semibold {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
 @theme {
     --color-blue-500: #6174FF;
     --color-blue-400: #8897FF;
@@ -11,4 +24,109 @@
     --color-gray-700: #4C545C;
     --color-gray-500: #9EABB2;
     --color-gray-50: #F5F7F7;
+
+    --spacing-0: 0px;
+    --spacing-100: 8px;
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-500: 40px;
+    --spacing-600: 48px;
+    --spacing-700: 56px;
+    --spacing-800: 64px;
+    --spacing-900: 72px;
+    --spacing-1000: 80px;
+    --spacing-1100: 88px;
+    --spacing-1200: 96px;
+}
+
+@utility text-preset-1 {
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 125%;
+    letter-spacing: -0.75px;
+}
+
+@utility text-preset-2 {
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: -0.75px;
+}
+
+@utility text-preset-3 {
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+}
+
+@utility text-preset-4 {
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: -0.5px;
+}
+
+@utility text-preset-5 {
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.5px;
+}
+
+@utility text-preset-6 {
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125%;
+    letter-spacing: -0.4px;
+}
+
+@utility text-preset-7 {
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.15px;
+}
+
+@utility text-preset-7-semibold {
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+
+@utility text-preset-8 {
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.15px;
+}
+
+button {
+    @apply bg-green-500 text-preset-7-semibold text-white rounded-[28px] px-7 h-14 flex items-center justify-center gap-2 active:bg-green-300;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+button.secondary {
+    @apply bg-blue-500! active:bg-blue-400!;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
 }

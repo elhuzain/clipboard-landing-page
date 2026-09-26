@@ -1,5 +1,4 @@
 /*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */
-@layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -7,7 +6,12 @@
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
     monospace;
+    --color-green-300: #5DCCBB;
+    --color-green-500: #26BBA4;
+    --color-blue-400: #8897FF;
     --color-blue-500: #6174FF;
+    --color-white: #fff;
+    --spacing: 0.25rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -161,32 +165,52 @@
   }
 }
 @layer utilities {
-  .static {
-    position: static;
-  }
   .contents {
     display: contents;
   }
   .table {
     display: table;
   }
-  .bg-blue-500 {
-    background-color: var(--color-blue-500);
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
-  }
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
+.bai-jamjuree-regular {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-@layer properties {
-  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
-    *, ::before, ::after, ::backdrop {
-      --tw-outline-style: solid;
-    }
+.bai-jamjuree-semibold {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+button {
+  display: flex;
+  height: calc(var(--spacing) * 14);
+  align-items: center;
+  justify-content: center;
+  gap: calc(var(--spacing) * 2);
+  border-radius: 28px;
+  background-color: var(--color-green-500);
+  padding-inline: calc(var(--spacing) * 7);
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: var(--color-white);
+  &:active {
+    background-color: var(--color-green-300);
   }
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+button.secondary {
+  background-color: var(--color-blue-500) !important;
+  &:active {
+    background-color: var(--color-blue-400) !important;
+  }
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+a {
+  @apply text-preset-7 hover:text-green-500;
 }
