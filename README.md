@@ -44,7 +44,17 @@ Users should be able to:
 
 ### What I learned
 
-Simple project. I selected it to further practice tailwind on native html, with spacing, responsivness, and base styles preparation
+Simple project. I selected it to further practice mobile-first, tailwind on native html, with spacing, responsivness, and base styles preparation.
+
+I'd initially set the mobile styles
+```html
+<div class="flex flex-col">
+```
+
+Then, on another iteration, I'd define tablet and desktop styles
+```html
+<div class="flex flex-col md:flex-row">
+```
 
 ## Author
 
