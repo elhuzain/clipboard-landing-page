@@ -46,63 +46,63 @@ body {
 
 @utility text-preset-1 {
     font-weight: 600;
-    font-size: 46px;
+    font-size: 2.875rem;
     line-height: 125%;
     letter-spacing: -0.75px;
 }
 
 @utility text-preset-2 {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 125%;
     letter-spacing: -0.75px;
 }
 
 @utility text-preset-3 {
     font-weight: 600;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 125%;
     letter-spacing: -0.6px;
 }
 
 @utility text-preset-4 {
     font-weight: 600;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 125%;
     letter-spacing: -0.5px;
 }
 
 @utility text-preset-5 {
     font-weight: 600;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 125%;
     letter-spacing: -0.5px;
 }
 
 @utility text-preset-6 {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 125%;
     letter-spacing: -0.4px;
 }
 
 @utility text-preset-7 {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 150%;
     letter-spacing: 0.15px;
 }
 
 @utility text-preset-7-semibold {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 150%;
     letter-spacing: 0.5px;
 }
 
 @utility text-preset-8 {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     letter-spacing: 0.15px;
 }
