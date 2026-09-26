@@ -121,7 +121,7 @@
 }
 
 button {
-    @apply bg-green-500 text-preset-7-semibold text-white rounded-[28px] px-7 h-14 flex items-center justify-center gap-2 active:bg-green-300;
+    @apply bg-green-500 text-preset-7-semibold text-white rounded-[28px] px-7 h-14 flex items-center justify-center gap-2 hover:cursor-pointer active:bg-green-300;
     box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
 }
 
