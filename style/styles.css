@@ -23,7 +23,6 @@
     --container-xl: 36rem;
     --text-xs: 0.75rem;
     --text-xs--line-height: calc(1 / 0.75);
-    --font-weight-semibold: 600;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --spacing-0: 0px;
@@ -511,6 +510,11 @@ button {
   &:hover {
     @media (hover: hover) {
       cursor: pointer;
+    }
+  }
+  &:hover {
+    @media (hover: hover) {
+      opacity: 75%;
     }
   }
   &:active {
