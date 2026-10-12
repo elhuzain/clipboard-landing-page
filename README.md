@@ -44,17 +44,21 @@ Users should be able to:
 
 ### What I learned
 
-Simple project. I selected it to further practice mobile-first, tailwind on native html, with spacing, responsivness, and base styles preparation.
+I chose this project to practise a mobile-first workflow with Tailwind CSS in a plain HTML page. One challenge was keeping the spacing consistent across repeated sections. Defining a spacing scale helped me reuse the same vertical rhythm instead of choosing a different value for every element.
 
-I'd initially set the mobile styles
+I also learned to introduce responsive changes when the content needed more room, rather than treating the design widths as the only possible breakpoints. I started with stacked mobile layouts:
+
 ```html
 <div class="flex flex-col">
 ```
 
-Then, on another iteration, I'd define tablet and desktop styles
+Then I used responsive utilities to place related content in a row on wider screens:
+
 ```html
 <div class="flex flex-col md:flex-row">
 ```
+
+As a next improvement, I would test more widths between 375px and 1440px and check every link and button with both keyboard focus and pointer hover states. This would help catch awkward spacing or interactions that are easy to miss when checking only the supplied mobile and desktop designs.
 
 ## Author
 
